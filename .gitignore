@@ -1,1 +1,4 @@
 *.class
+lib/
+run/
+bin/
