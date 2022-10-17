@@ -40,13 +40,13 @@ public class RaizTest {
 
     @Test
     public void verificaCasoBase() {
-        double resultado = raiz.calcula("4");
+        double resultado = raiz.raiz(4);
         assertEquals(2.0, resultado);
     }
 
     @Test
     public void verificaRaizDouble() {
-        double resultado = raiz.calcula("5");
+        double resultado = raiz.raiz(5);
         assertEquals(2.2360, resultado, 0.0001);
     }
 
